@@ -12,10 +12,22 @@ Les compartiré este otro que es sin pérdida de información para que vean que 
 https://www.mediafire.com/file/q4itlgynb1zvqnc/Explicando-algoritmo-DualPhaseCompress.pdf/file
 
 
+Nuevo contenido entre líneas
+
+--------------------------------------------------------------------------------------------
 Para hacer pruebas ver compresión programa ejecutable .exe
 
 https://www.mediafire.com/file/4p0b54noj50mc3l/DualPhaseCompress_nz.exe/file
 
+El programa en las reglas se puede modificar para comprimir en distintos tipos de compresión abajo estara el archivo .py para ello.
+
+
+
+Programa para modificar archivo .py
+
+https://www.mediafire.com/file/zka2jy4yr625j61/DualPhaseCompress_nz.py/file
+
+--------------------------------------------------------------------------------------------
 
 
 Algoritmo de compresión DualPhaseCompress
