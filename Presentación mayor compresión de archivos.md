@@ -15,7 +15,7 @@ https://www.mediafire.com/file/q4itlgynb1zvqnc/Explicando-algoritmo-DualPhaseCom
 Algoritmo de compresión DualPhaseCompress
 
 
-      datos a hex
+[      'datos a hex'      ]
 
       
 tabla
