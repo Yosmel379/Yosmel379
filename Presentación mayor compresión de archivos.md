@@ -12,7 +12,7 @@ Les compartiré este otro que es sin pérdida de información para que vean que 
 https://www.mediafire.com/file/q4itlgynb1zvqnc/Explicando-algoritmo-DualPhaseCompress.pdf/file
 
 
-Nuevo contenido entre líneas
+Nuevo contenido dentro de las líneas
 
 --------------------------------------------------------------------------------------------
 Para hacer pruebas ver compresión programa ejecutable .exe
