@@ -16,6 +16,7 @@ Algoritmo de compresión DualPhaseCompress
 
 
       datos a hex
+
       
 tabla
 
@@ -50,6 +51,7 @@ D=111
 E=0000
 
 F=0001
+
 
 
 reglas
@@ -101,15 +103,16 @@ compresión
 
 descomprimir
 
+
 reglas
 
 0   cambiar '1111' siguiente
 
 01 cambiar '1010' siguiente
 
-     cambiar '00' siguiente
+''  cambiar '00' siguiente
      
-1   cambiar '01' siguiente
+1  cambiar '01' siguiente
 
 10 siguiente
 
