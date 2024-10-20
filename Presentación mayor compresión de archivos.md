@@ -1,4 +1,4 @@
-👋 Hola, soy Yosmel379
+ 👋 Hola, soy Yosmel379
  Mostrando en el video de abajo una demostración del algoritmo que cree de compresión de lograr mayor compresión 100% en los datos sin pérdida de información.
 
 https://www.youtube.com/watch?v=_4CuL5q6Glk&t=6s
@@ -6,26 +6,44 @@ https://www.youtube.com/watch?v=_4CuL5q6Glk&t=6s
 Les compartiré este otro que es sin pérdida de información para que vean que si se puede comprimir más y un documento pdf explicando y pruebas.
 
   Documento explicaciones en archivo .pdf
+  
 https://www.mediafire.com/file/q4itlgynb1zvqnc/Explicando-algoritmo-DualPhaseCompress.pdf/file
 
 Algoritmo de compresión DualPhaseCompress
+
       datos a hex
 tabla
+
 0=1111
+
 1=1010
+
 2=00
+
 3=01
+
 4=10
+
 5=11
+
 6=000
+
 7=001
+
 8=010
+
 9=011
+
 A=100
+
 B=101
+
 C=110
+
 D=111
+
 E=0000
+
 F=0001
 
 reglas
