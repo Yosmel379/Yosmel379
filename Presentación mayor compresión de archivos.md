@@ -12,6 +12,12 @@ Les compartiré este otro que es sin pérdida de información para que vean que 
 https://www.mediafire.com/file/q4itlgynb1zvqnc/Explicando-algoritmo-DualPhaseCompress.pdf/file
 
 
+Para hacer pruebas ver compresión programa ejecutable .exe
+
+https://www.mediafire.com/file/4p0b54noj50mc3l/DualPhaseCompress_nz.exe/file
+
+
+
 Algoritmo de compresión DualPhaseCompress
 
 
