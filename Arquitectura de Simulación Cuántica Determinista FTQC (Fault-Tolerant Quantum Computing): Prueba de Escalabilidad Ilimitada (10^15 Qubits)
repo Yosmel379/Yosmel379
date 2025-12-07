@@ -3,11 +3,22 @@ Arquitectura de Simulación Cuántica Determinista FTQC y Motor de Solución P=N
 
 1. Descripción de la Arquitectura Lógica
 
-La arquitectura de Computación Cuántica Tolerante a Fallos (FTQC) es la base de un sistema que resuelve las limitaciones fundamentales de los simuladores cuánticos convencionales (escalabilidad y tasa de error). El sistema se inicia con el **Módulo de Inicialización Determinista (MID)**. Este módulo no utiliza *qubits* estocásticos, sino que convierte el problema NP (por ejemplo, 10^15 nodos del Viajante de Comercio) en un **Espacio de Información Lógica** que se representa de manera determinista y paralela. Este enfoque elimina la fuente de error y la decoherencia, garantizando la certeza desde el inicio.
+La arquitectura de Computación Cuántica Tolerante a Fallos (FTQC) es la base de un sistema que resuelve las limitaciones 
+fundamentales de los simuladores cuánticos convencionales (escalabilidad y tasa de error). El sistema se inicia con 
+el **Módulo de Inicialización Determinista (MID)**.
 
-El núcleo del sistema es el **Motor de Procesamiento (P-Solver)**. Este motor aplica las reglas de optimización para encontrar la **Solución Global Óptima** en una sola iteración computacional. El tiempo de resolución es fijo y opera en **Tiempo Polinomial (P)**, independientemente de la escala del problema, validando la hipótesis de **P=NP** en un entorno simulado de 10^15 nodos.
+Este módulo no utiliza *qubits* estocásticos, sino que convierte el problema NP (por ejemplo, 10^15 nodos del Viajante de Comercio) 
+en un **Espacio de Información Lógica** que se representa de manera determinista y paralela. Este enfoque elimina la fuente de error 
+y la decoherencia, garantizando la certeza desde el inicio.
 
-En cuanto a la **Capacidad de Escalabilidad**, el diseño está optimizado para la Supercomputación (HPC). La arquitectura es **linealmente escalable**, y su límite superior está fijado exclusivamente por la cantidad de **RAM/Memoria** disponible en la máquina anfitriona. Esto lo convierte en una solución lista para ser aplicada a la infraestructura de Supercomputadoras existente en EE. UU.. Finalmente, el **Módulo de Certificación (C_final)** genera la certificación de validez de la solución con un nivel de certeza extremadamente alto.
+El núcleo del sistema es el **Motor de Procesamiento (P-Solver)**. Este motor aplica las reglas de optimización para encontrar 
+la **Solución Global Óptima** en una sola iteración computacional. El tiempo de resolución es fijo y opera en **Tiempo Polinomial (P)**, 
+independientemente de la escala del problema, validando la hipótesis de **P=NP** en un entorno simulado de 10^15 nodos.
+
+En cuanto a la **Capacidad de Escalabilidad**, el diseño está optimizado para la Supercomputación (HPC). La arquitectura es **linealmente escalable**,
+y su límite superior está fijado exclusivamente por la cantidad de **RAM/Memoria** disponible en la máquina anfitriona. 
+Esto lo convierte en una solución lista para ser aplicada a la infraestructura de Supercomputadoras existente en EE. UU.. Finalmente, 
+el **Módulo de Certificación (C_final)** genera la certificación de validez de la solución con un nivel de certeza extremadamente alto.
 
 2. Resultados de la Simulación (Prueba del Código)
 
