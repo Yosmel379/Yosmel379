@@ -1,0 +1,28 @@
+# 📊 Arquitectura CID: Validación de Tiempos de Ejecución P vs NP
+
+Este repositorio aloja las herramientas de prueba empírica y los scripts de benchmark interactivos diseñados para evaluar la eficiencia temporal de la **Arquitectura de Cadenas Independientes Discretas (CID)** frente a los métodos de búsqueda secuencial tradicionales.
+
+---
+
+## 📑 Documento Científico y Marco Teórico
+La formalización matemática detallada, los axiomas de transferencia isomórfica y el análisis algebraico se encuentran registrados para su libre acceso en:
+* **Pre-print Oficial:** https://ai.vixra.org *(Enlace directo pendiente de asignación por el sistema)*
+* **Referencia de Envío:** Formulario #18059408
+* **Autor:** Yosmel Silva
+* **Contacto:** yosmel777@gmail.com | yosmel.silva@outlook.com
+
+---
+
+## 🚀 Script de Benchmark Interactivo (`prueba de ataque.py`)
+
+El script principal simula el peor escenario matemático posible (colocar un objetivo de validación al final de una secuencia de datos masiva) para comparar dos filosofías de procesamiento:
+
+1. **Recorrido de Lista Tradicional:** Realiza una iteración secuencial elemento por elemento, lo que genera una dependencia directa del volumen total de datos ($O(N)$).
+2. **Identidad Estructural CID:** Aplica un mapeo por pertenencia directa sobre una estructura indexada nativa. Esto permite que el procesador acceda a la propiedad de forma inmediata en tiempo constante ($O(1)$), independientemente de la escala del archivo.
+
+### 🛠️ Instrucciones para ejecutar la prueba local:
+
+1. Descargar el archivo `prueba de ataque.py` de este repositorio.
+2. Ejecutar el script desde tu terminal de comandos:
+   ```bash
+   python "prueba de ataque.py"
